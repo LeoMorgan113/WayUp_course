@@ -68,6 +68,8 @@ button{
 	margin: 60px -4% 142px 0;
 }
 .btn{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
 	background: #ffd429; 
 	color: #2e2a1b;
 	border-radius: 0;
