@@ -48,6 +48,9 @@ button{
 	justify-content: space-between;
 	align-items: center;
 }
+.offer{
+	margin: 0;
+}
 .title{
 	font-family: 36px;
 	width: 562px;
