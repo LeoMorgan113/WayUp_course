@@ -29,6 +29,7 @@ section{
 }
 .header{
 	padding-top: 60px;
+	padding-bottom: 142px;
 	color: white;
 	background: rgba(78,189,254,1);
 	background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
@@ -60,7 +61,7 @@ section{
 .travel{
 	width: 50%;
 	padding: 0;
-	margin: 60px -5% 142px 0;
+	margin: 60px -5% 0 0;
 }
 .btn{
 	font-family: 'Montserrat', sans-serif;
@@ -75,7 +76,7 @@ section{
 	text-decoration: none;
 }
 .future{
-	margin-bottom: 105px;
+	padding-bottom: 105px;
 }
 .f_title{
 	text-align: center;
@@ -178,8 +179,6 @@ input{
 	}
 	.travel{
 		width: 100%;
-		padding: 0;
-		margin: 60px -5% 142px 0;
 	}
 	.plans{
 		flex-direction: column;
