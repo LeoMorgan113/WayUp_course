@@ -62,7 +62,7 @@ section{
 	max-width: 550px;
 	width: 100%;
 	padding: 0;
-	margin: 60px -5% 0 0;
+	margin: 60px -17px 0 0;
 }
 .btn{
 	font-family: 'Montserrat', sans-serif;
@@ -147,16 +147,34 @@ input{
 	.title{
 		width: 100%;
 	}
-	.travel{
-		margin: 60px 0 0 0;
-	}
 }
 @media screen and (max-width: 992px) {
 	.container{
 		width: 720px;
 	}
+	.logo{
+		margin: 0 auto;
+		display: block;
+		align-items: center;
+	}
 	.wrapper{
 		flex-direction: column;
+	}
+	.offer{
+		max-width: 500px;
+		width: 100%;
+		margin-top: 80px;
+		text-align: center;
+	}
+	.title{
+		width: 100%;
+	}
+	
+	.btn{
+		margin: 0 auto;
+	}
+	.header_text{
+		width: 100%;
 	}
 	.travel{
 		max-width: 640px;
@@ -167,27 +185,7 @@ input{
 	.container{
 		width: 540px;
 	}
-	.logo{
-		margin: 0 auto;
-		display: block;
-		align-items: center;
-	}
-	.title{
-		width: 100%;
-	}
-	.wrapper{
-		flex-direction: column;
-	}
-	.offer{
-		margin-top: 80px;
-		text-align: center;
-	}
-	.btn{
-		margin: 0 auto;
-	}
-	.header_text{
-		width: 100%;
-	}
+	
 	.travel{
 		width: 100%;
 	}
